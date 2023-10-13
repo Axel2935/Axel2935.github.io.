@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+@import url("./header/header.css");
+@import url("./header/headerSmall.css");
+
+
+:root{
+    --color: ;
+    --letra: 'Kalam', cursive;
+    --letraT: 14px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    /* border: 1px solid rebeccapurple; */
+    text-decoration: none;
+}
+
+body{
+    font-family:var(--letra);
+    font-size: var(--letraT);
+    height: 300svh;
+}
+
+header{
+    height: 30svh;
+}
