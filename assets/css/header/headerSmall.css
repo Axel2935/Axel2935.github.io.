@@ -1,3 +1,23 @@
+.ico_menu{
+    font-size: 26px;
+    color:aliceblue;
+    cursor: pointer;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#label_check{
+    width: 26px;
+    height: 100%;
+    display: none;
+}
+
+#check_menu{
+    display: none;
+}
+
+
 @media screen and (max-width: 720px) {
     .search input{
         display: none;
