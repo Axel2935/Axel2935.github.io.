@@ -5,21 +5,16 @@
     <link rel="icon" href="./assets/media/icons/panadero.png">
     <meta charset="utf-8">
     <meta name="A2935">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="/assets/css/style.css">
+    
+    <link rel="stylesheet" type="text/css" href="/assets/css/main/form.css">
+    <script type="text/javascript"
+    src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    emailjs.init('exH_LfysLM0ZSOgYj')
+    </script>
 </head>
-<!-- Clase 22
-al menos 4 paginas html
-etiquetas semanticas para estructurar el contenido
-formulario, dice emailjs
-iframe
-diseño responsivo(mobile,table,escritorio)
-al menos una animacion, transpormacion o transicion
-flexbos y7o grid
-api rest desde js
-frameword de css, ej boostrap, solo se podra emprear en el formulario
-publicacion y git, Github Pages
-buen diseño y buen uso de formatos de archivos, https://youtu.be/fVkGt2tYIj0.
-documentacion de la pagina, anda a saber que es eso -->
 
 <body>
     <header>
@@ -59,7 +54,32 @@ documentacion de la pagina, anda a saber que es eso -->
     </header>
 
     <main>
-        
+        <form class="container">
+            <div class="col-7">
+                <!-- titulo con otra col -->
+                <!-- subtitulo con otra col -->
+                <div class="row">
+                    <div class="col"><input type="text" placeholder="Nombre"></div>
+                    <div class="col"><input type="text" placeholder="a"></div>
+                </div>
+            </div>
+        </form>
+
+        <form id="form">
+            <div class="field">
+              <label for="from_name">from_name</label>
+              <input type="text" name="from_name" id="from_name">
+            </div>
+            <div class="field">
+              <label for="message">message</label>
+              <input type="text" name="message" id="message">
+            </div>
+            <div class="field">
+              <label for="email_id">email_id</label>
+              <input type="text" name="email_id" id="email_id">
+            </div>
+            <input type="submit" id="button" value="Send Email" >
+          </form>
     </main>
 
     <footer>
@@ -79,6 +99,10 @@ documentacion de la pagina, anda a saber que es eso -->
             </div>
         </div>
     </footer>
-    
+
+
 </body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="/assets/js/form.js"></script>
 </html>
