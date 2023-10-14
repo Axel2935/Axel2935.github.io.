@@ -1,0 +1,22 @@
+footer *{
+    border: 1px solid yellow;
+}
+
+footer{
+    background: black;
+    color:aliceblue;
+    text-align: center;
+}
+
+.conteiner_footer div{
+    display: inline-block;
+}
+
+footer h3{
+    font-size: 2rem;
+    padding: 20px;
+}
+img{
+    height: 15svh;
+    aspect-ratio: 16/9;
+}
