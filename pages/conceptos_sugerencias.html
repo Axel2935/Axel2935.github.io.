@@ -54,21 +54,29 @@
     </header>
 
     <main>
+
         <form id="form">
-            <div class="field">
-              <label for="from_name">Nombre</label>
-              <input type="text" name="from_name" id="from_name">
+            <div class="col-10"><h2>Sugerencias</h2></div>
+            <div class="col-10"><p>Usaremos este espacio para mejorar la página entre todos. Si tienes consejos para aportar o si ves algún error en las recetas, no dudes en escribirlo abajo, y me encargaré de solucionarlo lo antes posible ¡Gracias!</p></div>
+            <div class="col-8 mx-auto">
+            <div class="row justify-content-center">
+                <div class="field col">
+                <label for="from_name">Nombre</label>
+                <input type="text" placeholder="Nombre" name="from_name" id="from_name">
+                </div>
+                <div class="field col">
+                <label for="email_id">Mail</label>
+                <input type="text" placeholder="Mail" name="email_id" id="email_id">
+                </div>
             </div>
-            <div class="field">
-              <label for="email_id">Mail</label>
-              <input type="text" name="email_id" id="email_id">
-            </div>
-            <div class="field">
+            <div class="field col">
               <label for="message">Contenido del Mensaje</label>
-              <input type="text" name="message" id="message">
+              <textarea type="text" placeholder="Contendido Del Mensaje" name="message" id="message"></textarea>
             </div>
             <input type="submit" id="button" value="Send Email" >
+            </div>
           </form>
+
     </main>
 
     <footer>
