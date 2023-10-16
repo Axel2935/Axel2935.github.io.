@@ -1,11 +1,9 @@
 header{
-    width: 100%;
     background: #f7c8b1;
 }
 
 .header_superior{
-    height: 50%;
-    max-width: 1000px;
+    max-width: 1200px;
     margin:auto;
     padding:0px 20px;
     display: flex;
@@ -13,8 +11,9 @@ header{
     justify-content: space-between;
 }
 
-img{
+header img{
     width: 200px;
+    padding: 10px;
 }
 
 .search input{
@@ -23,7 +22,6 @@ img{
 }
 
 .container_menu{
-    height: 50%;
     width: 100%;
     background: #b8460d;
 }
@@ -31,10 +29,6 @@ img{
 .menu{
     max-width: 1200;
     margin:auto;
-    height: 100%;
-}
-
-nav{
     height: 100%;
 }
 
@@ -47,7 +41,7 @@ nav  ul  li {
     height: 100%;
     list-style: none;
     position: relative;
-    padding: 0 20px;
+    padding: 20px;
     margin: auto;
 }
 
@@ -58,23 +52,23 @@ nav > ul  li:hover{
 }
 
 header li > a{
-    height: 100%;
-    display: flex;
-    align-items: center;
+    /*si queres que los a esten centrados, pero asi estan bien por ahora*/
+    /* display: block;
+    text-align: center; */
     color: white;
 }
 
 header li > ul{
-    width: 200px;
+    width: 180px;
     display: flex;
     flex-direction: column;
-    background: yellow;
+    background: red;
     position: absolute;
-    top: 400%;
-    left: -5%; 
+    left: -5%;
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     visibility: hidden;
     opacity: 0;
+    top: 900%;
 }
 
 header li:hover ul{

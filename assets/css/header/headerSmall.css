@@ -1,9 +1,7 @@
 label > img{
     border: 1px solid blue;
     cursor: pointer;
-    height: 70%;
-    width: 15svh;
-    padding: 50%;
+    width: 100%;
     display: flex;
 }
 
@@ -12,14 +10,13 @@ label > img{
 }
 
 #label_check{
-    width: 26px;
-    height: 100%;
-    display: none;
+    width: 8%;
+    aspect-ratio: 10/10;
+    display: none
 }
 
 @media screen and (max-width: 720px) {
     .header_superior{
-        height: 60%;
         justify-content: center
     }
     
@@ -30,17 +27,27 @@ label > img{
     nav > ul{
         flex-direction: column;
         background-color: red;
-        position: fixed;
-        top:32svh;
+        position: absolute;
         width: 100%;
+        height: auto;
         opacity: 0;
         visibility: hidden;
     }
 
     #check_menu:checked ~ nav > ul{
-        height: 30svh;
         visibility: visible;
         opacity: 1;
+    }
+
+    header li{
+        width: 100%;
+        text-align: center;
+    }
+
+    nav > ul  li:hover{
+        transform: scale(1);
+        background: #ea7d47;
+        box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
     }
 
     .desplegable li{
