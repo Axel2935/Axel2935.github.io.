@@ -1,0 +1,40 @@
+.pages{
+    height: auto;
+    max-width: 1200px;
+    box-sizing: border-box;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+}
+
+.pages section{
+    padding: 5svh;
+    text-align: center;
+}
+
+.pages img {
+    width: 80%;
+    aspect-ratio: 16/9;
+    border: 5px solid orange;
+}
+
+.pages ul, .pages h3, .pages ol{
+    text-align: left;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h2{
+    color:red;
+    position: sticky;
+    top: 2rem;
+    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+h3{
+    color:orange
+}
+
+@media screen and (max-width: 720px) {
+    .pages img {
+        width: 100%;
+    }
+}
