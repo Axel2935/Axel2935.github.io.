@@ -1,0 +1,17 @@
+/* @media (width < 480px) {
+    .muestras{
+        grid-template-columns: 1;
+        grid-template-rows: 9;
+        grid-template-areas:
+        "a"
+        "b"
+        "c"
+        "d"
+        "e"
+        "f"
+        "g"
+        "h"
+        "i";
+    }
+
+} */

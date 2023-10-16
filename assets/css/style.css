@@ -3,7 +3,9 @@
 @import url("./header/headerSmall.css");
 @import url("./footer/footer.css");
 @import url("./footer/footerSmall.css");
-@import url("./main/grid.css");
+@import url("./main/grid/grid.css");
+@import url("./main/grid/gridMedium.css");
+@import url("./main/grid/gridSmall.css");
 
 
 :root{

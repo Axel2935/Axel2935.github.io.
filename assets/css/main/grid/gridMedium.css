@@ -1,0 +1,13 @@
+@media (width <800px) {
+    .muestras{
+        margin: 4rem 0 4rem 0;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        grid-template-areas:
+        "a b"
+        "c d"
+        "e f"
+        "g h"
+        "i i"
+    }
+}

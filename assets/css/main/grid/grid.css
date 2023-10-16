@@ -1,8 +1,5 @@
-
-
 main{
     height: 200svh;
-    box-sizing: border-box;
 }
 
 .muestras{
@@ -28,8 +25,8 @@ main{
 }
 
 .muestras > section:nth-child(1){
-background-image: url("/assets/media/imagen/pepas.webp");
-grid-area: a;
+    background-image: url("/assets/media/imagen/pepas.webp");
+    grid-area: a;
 }
 
 .muestras > section:nth-child(2){
