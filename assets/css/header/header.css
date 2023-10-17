@@ -52,9 +52,8 @@ nav > ul  li:hover{
 }
 
 header li > a{
-    /*si queres que los a esten centrados, pero asi estan bien por ahora*/
-    /* display: block;
-    text-align: center; */
+    display: block;
+    text-align: center;
     color: white;
 }
 
