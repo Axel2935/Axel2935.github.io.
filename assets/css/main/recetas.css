@@ -1,0 +1,28 @@
+.divClases{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+.divClases img{
+    width:300px;
+    aspect-ratio: 10/10;
+    box-sizing: border-box;
+    border: 5px solid orange;
+    padding: 0;
+}
+
+@media screen and (max-width: 720px) {
+    .divClases img{
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .divClases img{
+        width: 100%;
+    }
+}
