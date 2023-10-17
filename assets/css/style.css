@@ -6,6 +6,7 @@
 @import url("./main/grid/grid.css");
 @import url("./main/grid/gridMedium.css");
 /* @import url("./main/grid/gridSmall.css"); */
+@import url("./main/pages.css");
 
 
 :root{

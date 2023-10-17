@@ -17,7 +17,7 @@
     border: 5px solid orange;
 }
 
-.pages ul, .pages h3, .pages ol{
+.pages ul, .pages h3, .pages ol, p{
     text-align: left;
     margin-top: 10px;
     margin-bottom: 10px;
