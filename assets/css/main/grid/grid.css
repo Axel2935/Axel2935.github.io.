@@ -1,7 +1,3 @@
-main{
-    height: 200svh;
-}
-
 .muestras{
     text-align: center;
     height: 100%;
@@ -18,6 +14,7 @@ main{
 }
 
 .muestras > section{
+    height: 45svh;
     border: 5px solid coral;
     background-position: center;
     background-repeat: no-repeat;

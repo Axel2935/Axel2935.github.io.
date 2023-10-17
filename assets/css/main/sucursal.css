@@ -1,0 +1,12 @@
+.sucursal{
+    max-width: 1000px;
+    margin: 5svh auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sucursal p{
+    margin: 10px 0;
+}
