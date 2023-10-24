@@ -1,29 +1,31 @@
 footer{
-    background: black;
+    /*guardar para unos botones, no se*/
+    /* background: rgba(39, 190, 236,0.45); */
+    background-image: url("/assets/media/imagen/footer1.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color:aliceblue;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     text-align: center;
+    padding-top: 15px;
 }
 
 .conteiner_footer{
     display: flex;
-    width: 100%;
-    gap: 2em;
+    gap: 5em;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-footer h3{
-    font-size: 2.5rem;
-    padding: 10px;
-}
-
-.conteiner_footer img{
-    width: 100%;
-    height: auto;
-}
-
 .conteiner_footer div{
-    max-width: 200px;
     flex-grow: 1;
+    min-width: 250px;
+    max-width: 300px;
+}
+
+.conteiner_footer div > img{
+    width: 100px;
+    height: 100px;
 }

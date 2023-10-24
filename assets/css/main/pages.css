@@ -26,9 +26,8 @@
 }
 h2{
     color:red;
-    /*ARREGLAR ESTO QUE CASI ME DA UN INFARTO, puede que con un z-index*/
-    /* position: sticky;
-    top: 2rem; */
+    position: sticky;
+    top: 2rem;
     text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
 }
 
@@ -39,5 +38,10 @@ h3{
 @media screen and (max-width: 720px) {
     .pages img {
         width: 100%;
+    }
+
+    h2{
+        position: static;
+        top: auto;
     }
 }
