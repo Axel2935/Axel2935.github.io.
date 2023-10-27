@@ -25,3 +25,15 @@
         width: 100%;
     }
 }
+
+.botones{
+    display: flex;
+}
+
+.botones > a{
+    text-align: center;
+    border: 1px solid orange;
+    border-radius: 30px;
+    padding: 10px;
+    width: 100px;
+}

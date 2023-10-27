@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
 @import url("./header/header.css");
 @import url("./header/headerSmall.css");
-@import url("./footer/footer.css");
-@import url("./footer/footerSmall.css");
 @import url("./main/grid/grid.css");
 @import url("./main/grid/gridMedium.css");
-/* @import url("./main/grid/gridSmall.css"); */
+/* preguntar pq no me funciona 2 archivos css con imports cada uno */
 @import url("./main/pages.css");
+@import url("./footer/footer.css");
+@import url("./footer/footerSmall.css");
 
 
 :root{
-    --color: ;
+    --color-header:#f7c8b1 ;
+    --color-menu:#de4a00;
+    --color-principal:#ff7f50;
+    --color-secundario:rgba(173, 216, 230, 0.7);
+
+    --box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+
     --letra: 'Kalam', cursive;
     --letraT: 16px;
 }
@@ -18,12 +24,12 @@
 *{
     margin: 0;
     padding: 0;
-    text-decoration: none /* !important */; /*acto de desesperacion por si no encuentro forma de arreglo por el boostrap, aunque tambien se puede deber a que vale 0 esto en jerarquia*/
+    text-decoration: none /*!important */; /*acto de desesperacion por si no encuentro forma de arreglo por el boostrap, aunque tambien se puede deber a que vale 0 esto en jerarquia*/
     transition: all 300ms ease-in-out;
 }
 
 body{
     font-family:var(--letra);
     font-size: var(--letraT);
-    text-decoration: none;
+    
 }

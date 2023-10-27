@@ -1,5 +1,5 @@
 header{
-    background: #f7c8b1;
+    background: var(--color-header);
 }
 
 .header_superior{
@@ -23,7 +23,7 @@ header img{
 
 .container_menu{
     width: 100%;
-    background: #b8460d;
+    background: var(--color-menu);
 }
 
 .menu{
@@ -48,8 +48,8 @@ nav  ul  li {
 
 nav > ul  li:hover{
     transform: scale(1.1);
-    background: #ea7d47;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    background: var(--color-principal);
+    box-shadow: var(--box-shadow);
 }
 
 header li > a{
@@ -62,10 +62,10 @@ header li > ul{
     width: 180px;
     display: flex;
     flex-direction: column;
-    background: red;
+    background: var(--color-menu);
     position: absolute;
     left: -5%;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    box-shadow: var(--box-shadow);
     visibility: hidden;
     opacity: 0;
     top: 900%;
