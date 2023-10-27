@@ -10,12 +10,15 @@
 
 
 :root{
-    --color-header:#f7c8b1 ;
+    --color-fondo:rgba(247, 200, 177,0.8);
     --color-menu:#de4a00;
     --color-principal:#ff7f50;
     --color-secundario:rgba(173, 216, 230, 0.7);
+    --color-terciario:#ffa500;
+    --color-titulo:#ff0000;
 
     --box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
+    --text-shadow:-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;;
 
     --letra: 'Kalam', cursive;
     --letraT: 16px;
@@ -32,4 +35,15 @@ body{
     font-family:var(--letra);
     font-size: var(--letraT);
     
+}
+
+h2{
+    color:var(--color-titulo);
+    position: sticky;
+    top: 2rem;
+    text-shadow: var(--text-shadow);
+}
+
+h3{
+    color:var(--color-principal);
 }
