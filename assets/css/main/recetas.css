@@ -1,5 +1,16 @@
+body {
+    background-image: url('/assets/media/imagen/FondoDePruebaPC2.webp');;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
 section{
     margin: 10svh 0;
+}
+
+section > h2{
+    margin-bottom: 5svh;
 }
 
 .divClases{
@@ -15,6 +26,7 @@ section{
     padding: 0;
     margin: 0;
     position: relative;
+    border: 5px solid var(--color-principal);
 }
 
 .divClases img {
@@ -63,12 +75,15 @@ section{
 
 .botones{
     display: flex;
+    justify-content: space-between;
 }
 
 .botones > a{
     text-align: center;
     border: 1px solid orange;
     border-radius: 30px;
+    background-color: var(--color-secundario);
     padding: 10px;
+    margin: auto;
     width: 100px;
 }

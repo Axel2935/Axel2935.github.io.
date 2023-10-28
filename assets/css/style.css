@@ -17,10 +17,10 @@
     --color-terciario:#ffa500;
     --color-titulo:#ff0000;
     --color-letra:#fff;
-
+    
     --box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.5);
     --text-shadow:-1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;;
-
+    
     --letra: 'Kalam', cursive;
     --letraT: 16px;
 }
@@ -30,12 +30,12 @@
     padding: 0;
     text-decoration: none /*!important */; /*acto de desesperacion por si no encuentro forma de arreglo por el boostrap, aunque tambien se puede deber a que vale 0 esto en jerarquia*/
     transition: all 300ms ease-in-out;
+    scroll-behavior: smooth; /*no me gusta, solo quiero que sea para el id Contacto pero no funciona*/
 }
 
 body{
     font-family:var(--letra);
     font-size: var(--letraT);
-    
 }
 
 h2{
