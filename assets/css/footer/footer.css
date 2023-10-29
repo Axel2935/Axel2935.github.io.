@@ -1,11 +1,9 @@
 footer{
-    /*guardar para unos botones, no se*/
     background: rgba(39, 190, 236,0.45);
-    /* background-image: url("/assets/media/imagen/footer1.webp"); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    color:aliceblue;
+    color:var(--color-letra);
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
     text-align: center;
     padding-top: 15px;

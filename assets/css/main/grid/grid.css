@@ -75,7 +75,7 @@
 .muestras a > p{
     align-self: flex-end;
     background-color:var(--color-secundario);
-    color: aliceblue;
+    color: var(--color-letra);
     width: 100%;
     height: 30%;
     justify-content: center;

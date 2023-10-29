@@ -4,7 +4,7 @@ form{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    text-shadow: var(--text-shadow);
 }
 
 .field {
@@ -26,7 +26,7 @@ form{
     padding: 6px 30px;
     font-size: 14px;
     background-color: #4460AA;
-    color: #fff;
+    color: var(--color-letra);
     border: none
   }
 

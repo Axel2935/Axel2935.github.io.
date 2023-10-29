@@ -1,5 +1,6 @@
 header *{
     z-index: 1000;
+    /* ver mas adelante como simplificar esto por el tema de los h2 en las pages */
 }
 
 header{
@@ -58,7 +59,7 @@ nav > ul  li:hover{
 header li > a{
     display: block;
     text-align: center;
-    color: white;
+    color: var(--color-letra);
 }
 
 header li > ul{

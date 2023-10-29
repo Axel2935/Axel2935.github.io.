@@ -3,10 +3,8 @@
 @import url("./header/headerSmall.css");
 @import url("./main/grid/grid.css");
 @import url("./main/grid/gridMedium.css");
-/* preguntar pq no me funciona 2 archivos css con imports cada uno */
 @import url("./main/pages.css");
 @import url("./footer/footer.css");
-@import url("./footer/footerSmall.css");
 
 
 :root{
